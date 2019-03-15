@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'HK_Grotesk_Regular', sans-serif;
-  background-image: linear-gradient(-90deg, #F2F2F2, #f9f9f9);
 }
 
 #root {
@@ -51,11 +50,13 @@ body {
 
 .LoginRegister {
   position: relative;
-  /* background: url(/assets/background.png); */
+  background-image: url('/assets/gray_polygonal4.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
   min-height: 620px;
-  height: calc(100vh - 100px);
-  padding: 100px 15px 0 15px;
+  height: calc(100vh - 42px);
+  padding: 42px 15px 0 15px;
 }
 
 header {
@@ -107,7 +108,7 @@ header {
 }
 
 .titleLogin, .titleRegister, .titleHeader {
-  background: #0078C8;
+  background: #0D672F;
   padding: 10px;
   border-radius: 0 0 0 0;
   color: #fff;
@@ -177,7 +178,7 @@ header {
 
 .forms a {
   text-decoration: none;
-  color: #0078C8;
+  color: #0D672F;
   font-weight: 600;
 }
 
@@ -270,14 +271,14 @@ header {
 }
 
 .succes {
-  background: #0078C8;
-  border: 1px solid #0078C8;
+  background: #0D672F;
+  border: 1px solid #0D672F;
   color: #fff;
 }
 
   .succes:hover {
     background: #fff;
-    color: #0078C8;
+    color: #0D672F;
   }
 
 .forgotten {
@@ -393,7 +394,7 @@ header {
 }
 
   .remodal .modal__header {
-    background: #0078C8;
+    background: #0D672F;
     padding: 10px;
     color: #fff;
   }

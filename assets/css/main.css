@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'HK_Grotesk_Regular', sans-serif;
+  background-image: linear-gradient(-90deg, #F2F2F2, #f9f9f9);
 }
 
 #root {
@@ -50,10 +51,10 @@ body {
 
 .LoginRegister {
   position: relative;
-  background: url(/assets/background.png);
+  /* background: url(/assets/background.png); */
   background-size: cover;
   min-height: 620px;
-  height: calc(100vh - 186px);
+  height: calc(100vh - 100px);
   padding: 100px 15px 0 15px;
 }
 
@@ -106,7 +107,7 @@ header {
 }
 
 .titleLogin, .titleRegister, .titleHeader {
-  background: #3596f4;
+  background: #0078C8;
   padding: 10px;
   border-radius: 0 0 0 0;
   color: #fff;
@@ -173,6 +174,16 @@ header {
 .forms>label:first-child {
   margin-top: 0;
 }
+
+.forms a {
+  text-decoration: none;
+  color: #0078C8;
+  font-weight: 600;
+}
+
+  .forms a:hover {
+    color: #000;
+  }
 
 .btn-box {
   text-align: right;
@@ -259,14 +270,14 @@ header {
 }
 
 .succes {
-  background: #3596f4;
-  border: 1px solid #3596f4;
+  background: #0078C8;
+  border: 1px solid #0078C8;
   color: #fff;
 }
 
   .succes:hover {
     background: #fff;
-    color: #3596f4;
+    color: #0078C8;
   }
 
 .forgotten {
@@ -308,25 +319,25 @@ header {
       justify-content: space-between;
 }
 
-@media all and (max-width: 974px) {
-  .strapline {
-    top: 70px;
-    left: 50px;
-  }
+.strapline {
+  top: 33px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
-  .form-box {
-    margin: 0 auto;
-    margin-top: 172px;
-  }
+.form-box {
+  margin: 0 auto;
+  margin-top: 192px;
 }
 
 @media all and (max-width: 375px) {
 
   .strapline {
-    margin: 0 0 0 20px;
+    margin: auto;
     left: 0;
     right: 0;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     top: 58px;
   }
@@ -382,7 +393,7 @@ header {
 }
 
   .remodal .modal__header {
-    background: #3596f4;
+    background: #0078C8;
     padding: 10px;
     color: #fff;
   }
